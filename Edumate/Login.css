@@ -1,0 +1,139 @@
+body {
+  background: linear-gradient(to right, #c9e0f5, #ffffff);
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+main {
+  display: flex;
+}
+
+.image1 {
+  width: 50vw;
+  position: relative;
+  top: 12vh;
+  left: -2vw;
+  filter: drop-shadow(0px 5px 2px rgba(0, 0, 0, 0.35));
+}
+
+.form {
+  position: relative;
+  top: 4vh;
+  left: 10vw;
+}
+
+h1 {
+  color: rgb(3, 70, 162);
+  font-size: 7ch;
+  position: relative;
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+form {
+  position: relative;
+  top: 1vh;
+  align-items: center;
+  border-radius: 20px;
+  background: linear-gradient(to bottom right, #0c79e7, #c0e2ff);
+  height: 45vh;
+  width: 22vw;
+}
+
+.details {
+  color: white;
+  position: relative;
+}
+
+h2 {
+  position: relative;
+  text-align: center;
+  top: 5vh;
+  font-size: 30px;
+}
+
+.username {
+  position: relative;
+  border: none;
+  border-bottom: 1px solid white;
+  background: transparent;
+  color: white;
+  top: 7vh;
+  left: 2vw;
+  width: 16vw;
+  outline: none;
+}
+
+.username::placeholder {
+  color: white;
+}
+
+.pass {
+  position: relative;
+  border: none;
+  border-bottom: 1px solid white;
+  background: transparent;
+  color: white;
+  top: 12vh;
+  left: 2vw;
+  outline: none;
+  width: 16vw;
+}
+
+.pass::placeholder {
+  color: white;
+}
+
+.forgot {
+  position: relative;
+  top: 13vh;
+  text-align: right;
+  right: 3.75vw;
+  font-size: 11px;
+}
+
+a.for {
+  color: white;
+}
+
+.login {
+  position: relative;
+  text-align: center;
+}
+
+.log {
+  position: relative;
+  border: none;
+  background-color: blue;
+  top: 18vh;
+  text-align: center;
+  padding: 1vh 8vw 1vh 8vw;
+  color: white;
+  border-radius: 25px;
+  font-size: 15px;
+  box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.35);
+}
+
+.nouser {
+  position: relative;
+  top: 19vh;
+  text-align: center;
+  font-size: 11px;
+}
+
+a.nouser1:visited {
+  color: blue;
+}
+
+.wave-clip {
+  position: absolute;
+  top: 0vh;
+  left: 43vw;
+  height: 37vh;
+  width: 57vw;
+  background: #a5c2f43a;
+  clip-path: path(
+    "M0,256L30,218.7C60,181,120,107,180,101.3C240,96,300,160,360,197.3C420,235,480,245,540,224C600,203,660,149,720,154.7C780,160,840,224,900,224C960,224,1020,160,1080,117.3C1140,75,1200,53,1260,90.7C1320,128,1380,224,1410,272L1440,320L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z"
+  );
+  transform: rotate(180deg);
+  transform: scaleY(-1);
+}
